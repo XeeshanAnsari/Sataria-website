@@ -60,16 +60,18 @@ body{
 /* footer is start here */
 #footer-first{
     width: 100%;
-    padding: 3%;
+    padding: 2%;
     height: 250px;
     background-color: #444444;
     font-size: 120%;
     
 }
 .col-footer{
-    width: 30%;
+    width: 32%;
+    height: 100%;
     float: left;
-    border-right: 1px solid #555555; 
+    color: #222222;
+    border-right :  1px solid #555555; 
   }
 #footer-nav-section{
      list-style: none;
@@ -88,6 +90,10 @@ body{
 #footer-nav-section li a:hover{
     color: #888888;
     text-decoration: none;
+}
+#footer-about{
+    text-align: center;
+    padding: 0px 2%;
 }
 .contact-icon{
     width: 20%;

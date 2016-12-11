@@ -58,11 +58,16 @@ body{
 /* image slider end here */
 
 /* footer is start here */
+#footer{
+   padding: 30px;
+   background-color: #000000;
+}
 #footer-first{
-    width: 100%;
+    width: 90%;
+    margin: 0px auto;
     padding: 2%;
     height: 250px;
-    background-color: #444444;
+    background-color: #000000;
     font-size: 120%;
     
 }
@@ -70,48 +75,52 @@ body{
     width: 32%;
     height: 100%;
     float: left;
-    color: #222222;
-    border-right :  1px solid #555555; 
+    color: #444444;
+     
   }
 #footer-nav-section{
      list-style: none;
    
 }
+.col-footer h3{
+   margin-left: 10%;
+   color: #BDC1B2;
+}
 #footer-nav-section li {
     width: 70%;
-    margin: 0px auto;
     text-align: left;
-    padding: 2%;
+    
     
 }
 #footer-nav-section li a{
-    color: #222222;
+    color: #444444;
 }
 #footer-nav-section li a:hover{
     color: #888888;
     text-decoration: none;
 }
 #footer-about{
-    text-align: center;
+    
     padding: 0px 2%;
 }
 .contact-icon{
     width: 20%;
-    height: 30px;
+    height: 35px;
     margin-right: 2%;
 }
 
 #copyRight{
-    width: 100%;
+    width: 90%;
+    margin: 0px auto;
     padding: 1%;
-    background-color: #333333;
+    background-color: #000000;
     
-    border-top: 1px solid #555555;
+    border-top: 1px solid #333333;
     
 }
 #copyRight span{
     
-    color: #111111;
+    color: #3E403F;
 }
 #footer-nav{
     display: inline;
@@ -123,7 +132,7 @@ body{
     margin-right: 5px;
 }
 #footer-nav li a{
-    color: #111111;
+    color: #444444;
     
 }
 #footer-nav li a:hover{

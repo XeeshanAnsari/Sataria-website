@@ -3,17 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <title>Index</title>
+    <link rel="stylesheet" href="./styles/bootstrap.min.css">
+    <script src="./js/jquery.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
-<body>
+<body onload="sliderA();">
     <div>
         <!-- HEADER  -->
         <div>
-            <div>
-                <ul>
-                    <li><a href="#"></a></li>
-                </ul>
+            <div >
+                
+            <!--Navigation-->
+                <div class="navbar navbar-default " id="navbar-cus">
+                    <div class="navbar-brand">
+                       <img src="" alt="">
+                    </div>
+                   
+                       <ul class=" nav navbar-nav " id="navs">
+                          <li><a href="#">Home</a></li>
+                          <li><a href="#">Register</a></li>
+                          <li><a href="#">Faculty</a></li>
+                          <li><a href="#">About</a></li>
+                          <li><a href="#">Contact</a></li>
+                            
+                        </ul>
+                          
+                  </div>
             </div>
         </div>
+        
+         <!-- HEADER END -->
+        
+         <!-- Image slider is start here -->
+        
+       <div class="imgBox">
+            <div id="imgSliderBox">
+                <img src="./images/slider/img1.jpg" alt="" id="imgSlider">
+                <div class="left-btn" ><img src="images/slider/left.png"   onclick="slider(-1);" alt="" class="left-arrow"></div>
+                <div class="right-btn" ><img src="images/slider/right.png" onclick="slider(1);" alt="" class="right-arrow"></div>    
+            </div>  
+       </div>
+    <!-- Image slider is end here -->
+        
     </div>
 </body>
 </html>

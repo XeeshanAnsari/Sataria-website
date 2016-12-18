@@ -16,10 +16,10 @@ body{
 }
 #navs > li > a:hover{
     color: #111111;
-    border-bottom:  3px solid cadetblue;
+    border-bottom:  4px solid cadetblue;
 }
 #navs > li > a:link{
-    border-bottom:  3px solid cadetblue;
+    
 }
 
 /* Navgation  End  here */
